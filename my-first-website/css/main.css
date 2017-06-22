@@ -1,0 +1,29 @@
+.navbar-brand{
+    color: blue!important;
+}
+.icon-bar{
+    background-color: red!important;
+}
+.navbar-brand span{
+    color: white;
+}
+#site-title{
+    text-align: center;
+    color: red;
+    background-color: #eee;
+    margin-top: -20px;
+    padding: 10px 0px;
+}
+#threeimages img{
+    width: 100%;
+    box-shadow: 2px 2px 2px 5px;
+}
+#threeimages h4{
+    text-align: center;
+}
+#threeimages p{
+    text-align: justify;
+}
+#threeimages hr{
+    border: 2px solid black;
+}
