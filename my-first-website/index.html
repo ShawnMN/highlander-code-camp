@@ -1,71 +1,99 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Mobile site</title>
-        
-        <script src="js/jquery-3.2.1.min.js"></script>
-        
-        <!-- Latest compiled and minified CSS -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <html>
+        <head>
+            <meta name="viewport" content="width=device, initial-scale=1">
+            
+            <title>Webpage6</title>
+            
+            <!-- Latest compiled and minified CSS -->
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+            
+            <!-- Latest compiled and minified JavaScript -->
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
-        <!-- Latest compiled and minified JavaScript -->
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-        
-        <link href="css/main.css" rel="stylesheet">
-        
-    </head>
-    <body>
-        <nav class="navbar navbar-inverse">
-  <div class="container-fluid">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="#">SHAWN<span>NOLASCO</span></a>
-    </div>
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>
-        <li><a href="#">About</a></li>
-      </ul>
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">Contact</a></li>
-      </ul>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
-</nav>
-   
-   <h1 id="site-title">Title</h1>
-   
-   <div id="threeimages" class="container">
-       <div class="row">
-           <div class="col-xs-12">
-               <img src="http://davidmdugger.com/learn/images/laptop-table-cropped.jpg">
-               <h4>Image One</h4>
-               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit quam, quis maxime. Explicabo maiores, accusamus perspiciatis animi. Assumenda, repellat sint. Eligendi modi numquam illum repellendus minima amet possimus unde fugiat.</p>
-               <button class="btn btn-danger">Submit</button>
-               <hr>
-           </div>
-           <div class="col-xs-12">
-               <img src="http://davidmdugger.com/learn/images/laptop-coffee.jpg">
-               <h4>Image Two</h4>
-               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex nesciunt atque, vero aperiam expedita itaque modi ipsa fugit, impedit, provident unde libero hic? Nulla eligendi ipsam a, fuga aspernatur, repellendus.</p>
-               <button class="btn btn-danger">Submit</button>
-               <hr>
-           </div>
-           <div class="col-xs-12">
-               <img src="http://davidmdugger.com/learn/images/ipad-macbook-iphone-cropped.jpg">
-               <h4>Image Three</h4>
-               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed perferendis, facilis, ea, nulla, consequuntur unde hic omnis id tenetur asperiores eligendi temporibus assumenda. Quidem nulla voluptatem molestiae totam iste. Ea.</p>
-               <button class="btn btn-danger">Submit</button>
-               <hr>
-           </div>
-       </div>
-   </div>
-    </body>
-</html>
+            <link href="css/main.css" rel="stylesheet">
+        </head>
+        <body>
+            <div id="top-nav">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <p>Shawn<span>Nolasco</span></p>
+                        </div>
+
+                        <div class="col-md-5"></div>
+
+                        <div class="col-md-4">
+                            <nav>
+                                <a href="">Home</a>     
+                                <a href="">About</a>
+                                <a href="">Contact</a>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <h1 id="site-title">Title</h1>
+            
+            <div id="three-images">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <img src="http://davidmdugger.com/learn/images/laptop-table-cropped.jpg">
+                        <h4>First image</h4>
+                        <p clas="p-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas voluptates magni minus, corporis, soluta sapiente saepe numquam molestiae possimus fugiat eligendi, labore quibusdam modi doloremque molestias dolores praesentium perferendis vero.</p>
+                        <button class="btn btn-default">submit</button>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="http://davidmdugger.com/learn/images/laptop-coffee.jpg">
+                        <h4>Second image</h4>
+                        <p class="p-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias sit vitae dolor eligendi quibusdam optio nihil necessitatibus quo officiis, aliquam tenetur, ducimus quia tempora quae maiores id soluta, natus incidunt.</p>
+                        <button class=" btn btn-default">submit</button>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="http://davidmdugger.com/learn/images/ipad-macbook-iphone-cropped.jpg">
+                        <h4>Third image</h4>
+                        <p class="p-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi consectetur dolorum ipsam, in minima, rem magni deserunt repellat a, accusantium commodi hic placeat. Ea consectetur sint voluptas, corporis omnis odio.</p>
+                        <button class="btn btn-default">submit</button>
+                    </div>
+                </div>                            
+            </div>
+            </div>
+             
+            <div id="light-gray">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h3>Subtitle</h3>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus eligendi sapiente, dolorum dignissimos porro ut assumenda quia nihil quo laboriosam eius pariatur quod officiis fugit praesentium dolores, explicabo voluptatibus ad?</p>
+                            </div>
+                            <div class="col-md-6">
+                                <form>
+<!--Imporant to use input in php and java-->
+                                    <input type="text" name="email" placeholder="enter your email">
+                                    <input type="submit" name="submiy">
+                                </form>
+                                <hr>
+                                <p id="disclaimer"><small>Dsiclaimer: We won't hack you</small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+            
+               <div class="cpntainer">
+                <div class="row">
+                    <div class="col-md-9">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/ml47Um5Qe4k?list=PLJkfWFKMxbFgvKYeXQUTUVBaHg_SNOOgs" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+            <footer>
+                <p>&copy;2017-Shawn Nolasco.All rights reserved.</p>
+            </footer>
+        </body>
+    </html>
